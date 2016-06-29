@@ -1,0 +1,41 @@
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="formDemo.css" />
+</head>
+<h1>Create a New Account</h1>
+<form method="post" action="show-data.php">
+    <fieldset>
+      <h2 class="hdr-account">Account</h2>
+      ... Account字段 ...
+    </fieldset>
+
+    <fieldset>
+      <h2 class="hdr-address">Address</h2>
+      ... Address字段 ...
+    </fieldset>
+
+    <fieldset>
+      <h2 class="hdr-public-profile">Public Profile</h2>
+      ... Public Profile字段 ...
+
+    <div class="row">
+      <fieldset class="radios">
+        <legend>Gender:</legend>
+        <input type="radio" id="gender-male"
+         name="gender" value="male" />
+        <label for="gender-male">Male</label>
+
+        <input type="radio" id="gender-female"
+         name="gender" value="female" />
+        <label for="gender-female">Female</label>
+    </fieldset>
+  </div>
+</fieldset>
+
+<fieldset>
+  <h2 class="hdr-emails">Emails</h2>
+  ... Emails字段 ...
+</fieldset>
+
+    <input type="submit" value="Create Account" class="btn" />
+</form>

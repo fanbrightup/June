@@ -1,0 +1,37 @@
+/*.architect p {
+    color: red;
+}
+article p {
+    color: green;
+}
+ 属于architect类article元素的祖先的任意p元素，是三个中特殊性最高的一个
+article.architect p {
+    color: blue;
+}*/
+/*section > p {
+     color: red;
+}*/
+
+p[class="intro"]{
+  color:red;
+}
+
+a:link {
+         color: red;
+    }
+
+    a:visited {
+         color: orange;
+    }
+
+    a:focus {
+         color: purple;
+    }
+
+    a:hover {
+         color: green;
+    }
+
+    a:active {
+         color: blue;
+    }

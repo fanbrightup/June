@@ -1,0 +1,28 @@
+ a{
+   color:pink;
+  font-size: 310%;
+}
+.p2.p22{
+  color:green;
+}
+.p1,.p3{
+  color:blue;
+}
+.divclass #divpid{
+  color:blue;
+}
+[title]{
+  color:red;
+}
+[title=te]{
+  color:yellow;
+}
+[href]{
+  color:pink !important;
+}
+[href]{
+  color:green;
+}
+body{
+  color:grey !important;
+}
