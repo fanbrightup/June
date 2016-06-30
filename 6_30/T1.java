@@ -4,6 +4,6 @@ public class T1{
       int i = 0;
       for(;i<100;i++){
         System.out.println(i);
-      }
+      } //  修改T1.java
   }
 }
